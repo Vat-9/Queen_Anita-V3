@@ -9,7 +9,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
   
-RUN gitclone https://github.com/DeeCeeXxx/Queen_Anita-V3
+RUN gitclone https://github.com/Vat-9/Queen_Anita-V3.git
   
 
 COPY package.json .
